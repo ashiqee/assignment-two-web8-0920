@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+
+    .menu-container,
+    .menus{
+        flex-direction: column;
+    }
+    
+    header{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 980px) {
+
+    
+    
+}
