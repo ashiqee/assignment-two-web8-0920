@@ -133,6 +133,7 @@ font-weight: 600;
 line-height: normal;
 text-transform: uppercase;
 }
+
 .banner-content h1{
     
 font-size: 5rem;
@@ -195,8 +196,7 @@ align-items: flex-start;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
    max-width: 1440px;
    margin: 0 120px;
-    /* height: 600px; */
-   background: var(--bg-color);
+    background: var(--bg-color);
     display: flex;
     padding-top: 60px;
 }
@@ -230,3 +230,95 @@ align-items: flex-start;
     padding-top: 15px;
 }
 
+/* Online Games Funny Videos  */
+
+.game-text{
+    background: var(--bg-text-color);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.game-video-container{
+      
+     padding-top: 60px;
+     margin-bottom: 20px;
+     font-size: 1.5rem;
+     text-align: center;
+    
+ }
+
+.game-video-content {
+    margin-top: 50px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    
+}
+
+.game-video-container p{
+    font-size: 14px;
+    
+}
+
+.game-gallary{
+    padding-top: 20px;
+    max-width: 1400px;
+    margin: 0 120px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    
+}
+
+.video-game{
+    position: relative;
+    width: 100%;
+    max-width: 270px;
+    transition: transform .2s;
+} 
+
+
+.video-game img{
+   
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+   
+}
+
+.video-game .fa{
+position: absolute;
+top:40%;
+left:50%;
+transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+cursor: pointer;
+
+}
+.video-game .txt{
+    position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+cursor: pointer;
+font-size: 1rem;
+color: var(--btn-color);
+font-weight: 700;
+
+}
+
+.txt:hover{
+    color:rgb(224, 219, 219);
+    
+}
+
+.video-game:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    margin-bottom: 80px;
+}
