@@ -1,17 +1,65 @@
 @media screen and (max-width:576px) {
 
     .menu-container,
-    .menus{
+    .menus,
+    .gamer-container
+    {
         flex-direction: column;
+        
     }
     
     header{
-        margin-top: 80px;
+        margin-top: 10px;
+        height: 250px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 10px;
+        
+    }
+    .banner-content, 
+    .banner-image,
+    .gamer-content,
+    .gamer-container{
+        width: 99%;
+        margin-top: 5px;
+        margin: 0px;
+        padding: 2px;
+        
+    }
+    .banner-text{
+        margin-left: 30px;
     }
 }
 
 @media screen and (min-width:576px) and (max-width: 980px) {
 
+    .menu-container,
+    .menus
+    {
+        flex-direction: column;
+        
+    }
     
+    header{
+        margin-top: 10px;
+        height: 240px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 10px;
+        
+    }
+    .banner-content,
+     .banner-image,
+     .gamer-content
+    {
+        width: 100%;
+        margin-top: 5px;
+        
+    }
+    .banner-text{
+        margin-left: 150px;
+    }
     
 }
