@@ -1,71 +1,92 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
+  .menu-container,
+  .menus,
+  .gamer-content,
+  .gamer-container,
+  .play-container {
+    flex-direction: column;
+  }
 
-    .menu-container,
-    .menus,
-    .gamer-content,
-    .gamer-container
-       {
-        flex-direction: column;
-        
-    }
-    .game-gallary {
-        grid-template-columns: repeat(1,1fr);
-        gap: 15px;
-      }
-    header{
-        margin-top: 10px;
-        height: 250px;
-    }
-    .banner-container{
-        flex-direction: column-reverse;
-        margin: 10px;
-        
-    }
-    .banner-content, 
-    .banner-image,
-    .gamer-content,
-    .gamer-container,
-    .game-video-container{
-        width: 99%;
-        margin-top: 5px;
-        margin: 0px;
-        padding: 2px;
-        
-    }
-    .banner-text{
-        margin-left: 30px;
-    }
+  .game-gallary {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+
+  header {
+    margin-top: 10px;
+    height: 250px;
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+    margin: 10px;
+  }
+
+  .banner-content,
+  .banner-image,
+  .gamer-content,
+  .gamer-container,
+  .game-video-container,
+  .play-container {
+    width: 99%;
+    margin-top: 5px;
+    margin: 0px;
+    padding: 2px;
+  }
+
+  .banner-text {
+    margin-left: 30px;
+  }
+  .play-content {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .play-image {
+    position: relative;
+    left: 95px;
+    height: 400px;
+  }
+
+  .play-image img {
+    width: 80%;
+  }
+  .badge-img img {
+    width: 50%;
+  }
+
+  .badge-img {
+    position: relative;
+    top: -140px;
+    right: 80px;
+  }
 }
 
-@media screen and (min-width:576px) and (max-width: 980px) {
-
-    .menu-container,
-    .menus
-       {
-        flex-direction: column;
-          }
-          .game-gallary {
-            grid-template-columns: repeat(1,1fr);
-          }
-    header{
-        margin-top: 10px;
-        height: 240px;
-    }
-    .banner-container{
-        flex-direction: column-reverse;
-        margin: 10px;
-        
-    }
-    .banner-content,
-     .banner-image,
-     .gamer-content
-    {
-        width: 100%;
-        margin-top: 5px;
-        
-    }
-    .banner-text{
-        margin-left: 150px;
-    }
-    
+@media screen and (min-width: 576px) and (max-width: 980px) {
+  .menu-container,
+  .menus {
+    flex-direction: column;
+  }
+  .game-gallary {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  header {
+    margin-top: 10px;
+    height: 240px;
+  }
+  .banner-container,
+  .play-container {
+    flex-direction: column-reverse;
+    margin: 10px;
+  }
+  .banner-content,
+  .banner-image,
+  .gamer-content {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .banner-text {
+    margin-left: 150px;
+  }
 }
