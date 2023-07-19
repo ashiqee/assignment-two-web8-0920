@@ -10,7 +10,6 @@
     flex-direction: column;
   }
   .gamer-content {
-    border: 2px solid seagreen;
     width: 50%;
     padding-left: 20px;
   }
@@ -45,16 +44,22 @@
     margin-left: 30px;
   }
   .play-content {
-    padding-top: 10px;
-    width: 99%;
+    padding-top: 20px;
+    width: 100%;
     text-align: center;
+    padding-right: 0px;
     padding-bottom: 20px;
   }
+  .play-content h2 {
+    font-size: 2rem;
+  }
   .play-image {
-    width: 320px;
+    width: 80%;
     position: relative;
-    left: 95px;
-    height: 315px;
+    right: -80px;
+    object-fit: cover;
+    /* left: 95px; */
+    height: 455px;
   }
 
   .play-image img {
@@ -120,20 +125,21 @@
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 790px) {
-  * {
-    margin: 0;
-    padding: 0;
+@media screen and (min-width: 576px) and (max-width: 990px) {
+  body {
+    margin: 0 auto;
   }
   .menu-container,
   .menus,
-  .gamer-content,
   .gamer-container,
   .play-container,
   .btn-section {
     flex-direction: column;
   }
-
+  .gamer-content {
+    width: 50%;
+    padding-left: 20px;
+  }
   .game-gallary {
     grid-template-columns: repeat(1, 1fr);
     gap: 15px;
@@ -164,16 +170,27 @@
   .banner-text {
     margin-left: 30px;
   }
+
+  .play-container {
+    margin: 0 auto;
+  }
   .play-content {
-    padding-top: 10px;
-    width: 99%;
+    padding-top: 20px;
+    width: 100%;
     text-align: center;
+    padding-right: 0px;
     padding-bottom: 20px;
   }
+  .play-content h2 {
+    font-size: 2rem;
+  }
   .play-image {
+    width: 80%;
     position: relative;
-    left: 95px;
-    height: 400px;
+    right: -80px;
+    object-fit: cover;
+    /* left: 95px; */
+    height: 455px;
   }
 
   .play-image img {
@@ -192,7 +209,7 @@
   /* btn container responsive */
   .btn-section {
     border: 1px solid seagreen;
-    max-width: 99%;
+
     margin: 0;
     padding: 10px;
   }
@@ -209,6 +226,10 @@
   .box img {
     width: 20px;
     height: 20px;
+  }
+  #box-1,
+  #box-7 {
+    margin-left: 20px;
   }
 
   /* footer section responsive */

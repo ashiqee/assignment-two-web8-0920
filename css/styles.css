@@ -312,20 +312,17 @@ header {
   height: auto;
   text-align: right;
   padding-top: 250px;
+  padding-right: 200px;
   color: #534c64;
 }
 
-.play-content h2,
-.play-content-two h2 {
+.play-content h2 {
   font-size: 3rem;
 }
 
 .play-image {
-  border: 1px solid saddlebrown;
   width: 65vh;
-  max-height: 100%;
   position: relative;
-  left: 200px;
   height: 620px;
 }
 .image-play img {
