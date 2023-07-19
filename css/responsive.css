@@ -61,6 +61,13 @@
     top: -140px;
     right: 80px;
   }
+
+  .btn-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 576px;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 980px) {

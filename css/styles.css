@@ -17,12 +17,15 @@
 }
 
 body {
-  max-width: 1640px;
+  /* max-width: 1920px; */
   font-family: "Roboto", sans-serif;
   font-family: "Work Sans", sans-serif;
-  margin: 0 auto;
 }
 
+.full-container {
+  max-width: 1640px;
+  margin: 0px auto;
+}
 /* header section style  */
 
 header {
@@ -332,6 +335,7 @@ header {
   position: relative;
   top: -270px;
   right: 150px;
+  height: 0;
 }
 
 /* .play-content-two {
@@ -352,3 +356,93 @@ header {
   padding-top: 270px;
   color: #534c64;
 } */
+
+.btn-section {
+  height: 427px;
+  /* box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); */
+  max-width: 1440px;
+  margin: 0 120px;
+  margin-top: 100px;
+  padding-top: 20px;
+  background: var(--bg-color);
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+.btn-container-two {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-container div,
+.btn-container-two div {
+  width: 220px;
+  border: 1px solid rgb(20, 9, 1);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px;
+  color: rgb(85, 25, 25);
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.box:hover {
+  background-color: #fff;
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
+}
+
+/* footer style  */
+
+.footer-container {
+  background: #0b0223;
+  text-align: center;
+  color: #fff;
+  height: 600px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  gap: 10px;
+}
+.menu-footer {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 794px;
+}
+.menu-footer li {
+  list-style: none;
+}
+
+.menu-footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2px;
+}
+
+.footer-p {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
